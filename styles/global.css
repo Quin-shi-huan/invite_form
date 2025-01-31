@@ -1,0 +1,60 @@
+:root {
+    /* COLORS */
+
+    /* Brand */
+
+    --brand-light: #59B2FF;
+    --brand--mid: #3487CF;
+    --brand-dark: #1D6FB6;
+
+    /* Feedback */
+
+    --danger: #FF5959;
+
+    /* Input */
+
+    --input-base: #1C1F21;
+    --input-stroke: #363B40;
+    --input-placeholder: #869198;
+
+    /* Shape */
+
+    --shape-background: #131516;
+    --shape-body: #212427;
+    --shape-button: #2D3136;
+    --shape-hover: #383D42;
+
+    /* Text */
+
+    --text-body: #C8CDD0;
+    --text-heading: #F9F9F9;
+
+    /* Logo Color */
+    --logo-color: #FF598B;
+
+    /* TYPOGRAPHY */
+
+    --font-family-leckerli: "Leckerli One", serif;
+    --font-family-baloo: "Baloo 2", serif;
+    --font-family-open-sans: "Open Sans", serif;
+
+    /* leckerli */
+    --logo-title: 400 2.5rem/normal var(--font-family-leckerli);
+
+    /* baloo 2 */
+    --heading-md: 700 1.75rem/normal var(--font-family-baloo);
+    --heading-sm: 700 1.125rem/normal var(--font-family-baloo);
+
+    /* open sans */
+    --body-md: 400 1rem/normal var(--font-family-open-sans);
+    --body-sm: 400 0.875rem/normal var(--font-family-open-sans);
+    --body-xs: 400 0.75rem/normal var(--font-family-open-sans);
+}
+
+body {
+    background-color: var(--shape-background);
+}
+
+.container {
+    box-sizing: border-box;
+}
