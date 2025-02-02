@@ -1,12 +1,21 @@
-#container-logo {
-    max-width: 25rem;
-    height: 100vh;
 
-    padding: 1.5625rem;
+#layout{
+    display: grid;
+    grid-template-columns: 31% 67%;
+
+    height: 100vh;
+    overflow: hidden;  
 }
 
-.logo {
+aside {
+    padding: 1.5625rem 1.5625rem 1.5625rem;
+    margin-left: auto;
+}
+
+.aside-container {
     position: relative;
+    margin-left: auto;
+    max-width: 25rem;
 
     img {
         border-radius: 0.75rem;
@@ -46,4 +55,26 @@
 .logo__title {
     font: var(--logo-title);
     color: var(--logo-color);
+}
+
+main {
+    overflow: auto;
+    background-color: var(--shape-body);
+    margin-block: 1.5625rem;
+    border-radius: 0.75rem;
+    height: 100vh;
+}
+
+.main-container{
+    max-width: 33rem;
+    height: 100vh;
+
+    margin: auto;
+    padding-block-start: 5rem;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;    
+
 }

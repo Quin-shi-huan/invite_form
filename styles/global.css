@@ -53,8 +53,20 @@
 
 body {
     background-color: var(--shape-background);
+    color: var(--text-body);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
     box-sizing: border-box;
+    padding: 1.25rem;
+}
+
+.heading-container{
+    font: var(--heading-md);
+    color: var(--text-heading);
 }
