@@ -29,7 +29,7 @@ input, textarea{
 
     font: var(--body-md);
     background-color: var(--input-base);
-    color: var(--input-placeholder);
+    color: var(--text-heading);
 }
 
 input:focus,
@@ -56,6 +56,14 @@ input[type="date"]{
         top: 50%;
         transform: translateY(-50%);
     }
+}
+
+input[type="date"]:invalid{
+    color: var(--input-placeholder);
+}
+
+input[type="date"]:valid{
+    color: var(--text-heading);
 }
 
 .radio-content{
