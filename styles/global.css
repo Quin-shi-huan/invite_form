@@ -61,6 +61,15 @@ img {
     height: auto;
 }
 
+.flex{
+    display: flex;
+    gap: 1rem;
+}
+
+.flex-1{
+    flex: 1;
+}
+
 .container {
     box-sizing: border-box;
     padding: 1.25rem;
@@ -70,3 +79,14 @@ img {
     font: var(--heading-md);
     color: var(--text-heading);
 }
+
+.heading-sm{
+    font: var(--heading-sm);
+    color: var(--text-heading);
+}
+
+.text-sm{
+    font: var(--body-sm);
+    color: var(--text-body);
+}
+

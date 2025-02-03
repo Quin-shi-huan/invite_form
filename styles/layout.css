@@ -70,11 +70,10 @@ main {
     height: 100vh;
 
     margin: auto;
-    padding-block-start: 5rem;
+    margin-block-start: 5rem;
 
 
     display: flex;
     flex-direction: column;
     gap: 40px;    
-
 }
