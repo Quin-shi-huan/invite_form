@@ -1,10 +1,9 @@
-
-#layout{
+#layout {
     display: grid;
     grid-template-columns: 31% 67%;
 
     height: 100vh;
-    overflow: hidden;  
+    overflow: hidden;
 }
 
 aside {
@@ -65,8 +64,8 @@ main {
     height: 100vh;
 }
 
-.main-container{
-    max-width: 33rem;
+.main-container {
+    max-width: 35rem;
     height: 100vh;
 
     margin: auto;
@@ -75,5 +74,5 @@ main {
 
     display: flex;
     flex-direction: column;
-    gap: 40px;    
+    gap: 40px;
 }

@@ -61,12 +61,12 @@ img {
     height: auto;
 }
 
-.flex{
+.flex {
     display: flex;
     gap: 1rem;
 }
 
-.flex-1{
+.flex-1 {
     flex: 1;
 }
 
@@ -75,18 +75,17 @@ img {
     padding: 1.25rem;
 }
 
-.heading-container{
+.heading-container {
     font: var(--heading-md);
     color: var(--text-heading);
 }
 
-.heading-sm{
+.heading-sm {
     font: var(--heading-sm);
     color: var(--text-heading);
 }
 
-.text-sm{
+.text-sm {
     font: var(--body-sm);
     color: var(--text-body);
 }
-
