@@ -16,11 +16,6 @@ textarea {
     resize: none;
 }
 
-input:focus,
-textarea:focus {
-    border: 2px solid var(--brand-light);
-}
-
 input[type="date"] {
     position: relative;
 
@@ -54,6 +49,5 @@ input:focus,
 select:focus,
 textarea:focus,
 input[type="date"]:focus-within {
-    outline: 1px solid var(--brand-light);
-    border-color: var(--brand-light);
+    border-color: var(--brand-light); 
 }

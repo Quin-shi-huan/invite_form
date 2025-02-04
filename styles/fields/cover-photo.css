@@ -1,0 +1,42 @@
+.cover-photo__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.upload-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    width: 100%;
+}
+
+.file-label {
+    display: none;
+}
+
+.file-button {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    background-color: var(--shape-button);
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+
+.file-name{
+    width: 100%;
+}
+
+.upload-icon {
+    background-image: url(/assets/icons/upload.svg);
+   width: 1rem;
+   height: 1rem;
+}
+
+.file-button:hover svg path{
+    stroke: var(--brand-light);
+}
+

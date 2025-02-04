@@ -70,6 +70,10 @@ img {
     flex: 1;
 }
 
+.flex-2 {
+    flex: 2;
+}
+
 .container {
     box-sizing: border-box;
     padding: 1.25rem;
@@ -85,7 +89,17 @@ img {
     color: var(--text-heading);
 }
 
+.body-md{
+    font: var(--body-md);
+    color: var(--input-placeholder);
+}
+
 .text-sm {
     font: var(--body-sm);
     color: var(--text-body);
+}
+
+.text-md{
+    font: 600 0.875rem/normal var(--font-family-open-sans);
+    color: var(--text-heading);
 }
