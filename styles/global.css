@@ -103,3 +103,7 @@ img {
     font: 600 0.875rem/normal var(--font-family-open-sans);
     color: var(--text-heading);
 }
+
+.text-xs-error{
+    font: var(--body-xs);
+}
