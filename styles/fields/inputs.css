@@ -49,5 +49,5 @@ input:focus,
 select:focus,
 textarea:focus,
 input[type="date"]:focus-within {
-    border-color: var(--brand-light); 
+    border-color: var(--brand-light);
 }

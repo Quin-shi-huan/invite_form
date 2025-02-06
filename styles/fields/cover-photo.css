@@ -25,22 +25,21 @@
     cursor: pointer;
     gap: 0.5rem;
 
-    &:hover{
+    &:hover {
         background-color: var(--shape-hover);
     }
 }
 
-.file-name{
+.file-name {
     width: 100%;
 }
 
 .upload-icon {
     background-image: url(/assets/icons/upload.svg);
-   width: 1rem;
-   height: 1rem;
+    width: 1rem;
+    height: 1rem;
 }
 
-.file-button:hover svg path{
+.file-button:hover svg path {
     stroke: var(--brand-light);
 }
-

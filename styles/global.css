@@ -89,7 +89,7 @@ img {
     color: var(--text-heading);
 }
 
-.body-md{
+.body-md {
     font: var(--body-md);
     color: var(--input-placeholder);
 }
@@ -99,11 +99,11 @@ img {
     color: var(--text-body);
 }
 
-.text-md{
+.text-md {
     font: 600 0.875rem/normal var(--font-family-open-sans);
     color: var(--text-heading);
 }
 
-.text-xs-error{
+.text-xs-error {
     font: var(--body-xs);
 }
